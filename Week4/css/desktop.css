@@ -1,0 +1,83 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body{
+   font-family: sans-serif;
+ background-color: red;
+}
+header{
+background-color: white;
+width: 960px;
+margin: 0 auto;
+}
+main{
+background-color: white;
+width: 940px;
+margin: 0 auto;
+padding: 10px;
+}
+footer{
+background-color: white;
+width: 960px;
+margin: 0 auto;
+}
+h1{
+color: pink;
+font-family: 'Lobster', sans-serif;
+}
+
+h3 em{
+    text-decoration: underline;
+    color: green;
+}
+nav{
+width: 450px;
+margin: 0 auto;
+}
+
+nav ol{
+
+
+}
+nav ol li{
+list-style: none;
+display: inline-block;
+margin-right: 20px;
+}
+nav ol li a{
+ text-decoration: none;
+ color: purple;
+font-size: 30px;
+}
+nav ol li a:hover{
+  background-color: pink;
+}
+a{
+  text-decoration: none;
+  color: green;
+}
+a:hover{
+  color: black;
+}
+p{
+  line-height: 50px;
+}
+
+#centerText{
+text-align: center;
+color: blue;
+  }
+  .greyOut{
+ color: aqua;
+
+  }
+  .work{
+    margin-bottom: 50px;
+    width:400px;
+    display: inline-block;
+    padding: 10px;
+    background-color: blue;
+  }
+  #moveUp{
+    margin-top: -50px;
+  }
+  </style>

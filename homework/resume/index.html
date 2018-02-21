@@ -12,37 +12,130 @@
     <meta name="description" content="This website is about me.">
 
   </head>
+  <style>
+@import url('https://fonts.googleapis.com/css?family=Bellefair|Playfair+Display');
+  body{
+    font-family: sans-serif;
+    background-color: pink;
+  }
+  header{
+    width: 960px;
+    margin: 0 auto;
+  }
+  main{
+   width: 940px;
+   margin: 0 auto;
+   padding: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 10px;
+   padding-left: 10px;
+ }
+ h1 {
+   color: SteelBlue;
+   font-family: 'Bellefair', cursive;
+ }
+ p {
+   line-height: 50px;
+   font-family: 'Playfair Display', sans-serif;
+
+ }
+ nav{
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  nav ul{
+    margin-left: -30px;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: Grey;
+    font-family: 'Bellefair', cursive;
+    font-size: 30px;
+  }
+
+  nav ul li a:hover{
+    background-color: white;
+  }
+  a{
+    text-decoration: none;
+    color: indigo;
+  }
+
+  a:hover{
+    color: AntiqueWhite;
+  }
+  #bio{
+    color: yellow;
+  }
+  #centering{
+  text-align: center;
+    }
+  .font{
+    font-size: 25px
+  }
+  .schedule{
+    color: SlateBlue;
+    font-family: cursive;
+  }
+  .design{
+    margin-bottom: 50px;
+    width:400px;
+    display: inline-block;
+    padding: 10px;
+    background-color: grey;
+  }
+  .styling{
+    font-family: monospace;
+    font-size: 20px
+  }
+  .format{
+    font-family: fantasy;
+  }
+
+</style>
 
   <body>
 
 
   <header>
-    <h1>Lexi Pinnata - Resume</h1>
+    <h1 id=centering>Lexi Pinnata - Resume</h1>
+    <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Resume</a></li>
+          </ul>
+        </nav>
 
-
-  </header>
+</header>
   <main>
 
-   <h3>Singing Video</h3>
+   <h3 class="styling">Singing Video</h3>
     <a href="https://www.youtube.com/watch?v=08J6KZfCDCU">Click here to go to my Youtube Video</a>
-  <!-This is a video of my a cappella group Drastic Measures singing Chandelier->
+  <!--This is a video of my a cappella group Drastic Measures singing Chandelier-->
     </header>
 
-  <main>
+
     <section>
-      <h1>Objective</h1>
-      <h3>To connect with others through the music industry.</h3>
+      <h1 class="font">Objective</h1>
+      <h3 class="styling">To connect with others through the music industry.</h3>
     </section>
 
     <section>
-      <h1>Experience</h1>
-      <h3><em>President, A Cappella Club</em></h3>
+      <h1 class="font">Experience</h1>
+      <h3 class="format"><em>President, A Cappella Club</em></h3>
        <ul>
          <li>Created and negotiated financial budget</li>
          <li>Composed/taught arrangements</li>
          <li>Won ICCA Quarterfinal</li>
       </ul>
-      <h3><em>Voice Tutor</em></h3>
+      <h3 class="format"><em>Voice Tutor</em></h3>
        <ul>
          <li>Prepared students for NYSSMA festival</li>
          <li>Improved sight-reading skills and vocal range</li>
@@ -54,17 +147,17 @@
       <a href="https://www.linkedin.com/in/alexandra-pinnata-46682a155/">For more information visit my Linkedin page!</a>
   </aside>
 
-  <article>
-    <h1>Bio</h1>
+  <article class="design">
+    <h1 id="bio">Bio</h1>
     <p>My name is Alexandra Pinnata and my goal is to make a difference in the music industry and in music education by utilizing my music and leadership skills. Moving forward, I am committed to increase my knowledge of music and communication skills by pursuing a music education degree at the <b>University of Miami</b>.</p>
     <a href="https://www.linkedin.com/in/alexandra-pinnata-46682a155/"><strong>Read More</strong></a>
   </article>
   <br>
    <img src="http://i.ytimg.com/vi/0vE--E3bnNI/mqdefault.jpg" width="200" />
-    <h2>Class Schedule</h2>
+    <h2 class="schedule">Class Schedule</h2>
 
-    <table>
-       <tr>
+    <table class="design">
+       <tr class="schedule">
        <th>Class</th>
        <th>Day</th>
        <th>Time</th>
@@ -84,6 +177,7 @@
       <td>TTh</td>
       <td>2:30-3:10</td>
     </tr>
+    </table>
 
 
   </main>
