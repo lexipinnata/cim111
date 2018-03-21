@@ -1,0 +1,48 @@
+@import "layout.css";
+
+#grid1{
+  display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: 400px 400px;
+}
+
+#col1{
+  background-color: pink;
+  width: 400px;
+  height: 400px;
+
+}
+
+#col2{
+  background-color: orange;
+
+  width: 400px;
+  height: 400px;
+
+}
+nav{
+   width: 400px;
+   margin: 0 0;
+   margin-left: 10px;
+ }
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+nav ul li {
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav ul li a:hover{
+background-color: white;
+color: blue;
+}

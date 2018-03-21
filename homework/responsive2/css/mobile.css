@@ -1,0 +1,9 @@
+@import "desktop.css";
+
+@media (max-width: 600px){
+  .container{
+    width: 80%;
+    background-color: red;
+    display: grid;
+  }
+}
