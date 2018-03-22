@@ -1,7 +1,7 @@
 .container{
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(1, 1fr); 
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .box {
@@ -9,25 +9,8 @@
   background-color: AntiqueWhite;
 }
 
-#grid1{
-  display: grid;
-  grid-template-columns: 400px 200px;
-  grid-template-rows: 400px;
-}
 
-#col1{
-  background-color: pink;
-  width: 400px;
-  height: 400px;
 
-}
-
-#col2{
-  background-color: orange;
-
-  width: 200px;
-  height: 400px;
-}
 
 @import url('https://fonts.googleapis.com/css?family=Bellefair|Playfair+Display');
   body{
@@ -35,11 +18,11 @@
     background-color: white;
   }
   header{
-    width: 960px;
+
     margin: 0 auto;
   }
   main{
-   width: 940px;
+
    margin: 0 auto;
    padding: 10px;
    padding-top: 10px;
@@ -58,7 +41,7 @@
  }
  nav{
     text-align: center;
-    width: 500px;
+
     margin: 0 auto;
   }
 
