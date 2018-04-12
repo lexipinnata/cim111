@@ -1,15 +1,28 @@
+.container{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.box {
+  max-width: 100%;
+  background-color: AntiqueWhite;
+}
+
+
+
 
 @import url('https://fonts.googleapis.com/css?family=Bellefair|Playfair+Display');
   body{
     font-family: sans-serif;
-    background-color: pink;
+    background-color: white;
   }
   header{
-    width: 960px;
+
     margin: 0 auto;
   }
   main{
-   width: 940px;
+   text-align: center;
    margin: 0 auto;
    padding: 10px;
    padding-top: 10px;
@@ -18,7 +31,7 @@
    padding-left: 10px;
  }
  h1 {
-   color: SteelBlue;
+   color: #4169e1;
    font-family: 'Bellefair', cursive;
  }
  p {
@@ -26,30 +39,7 @@
    font-family: 'Playfair Display', sans-serif;
 
  }
- nav{
-    width: 300px;
-    margin: 0 auto;
-  }
 
-  nav ul{
-    margin-left: -30px;
-  }
-  nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin-right: 20px;
-    font-size: 40px
-  }
-  nav ul li a{
-    text-decoration: none;
-    color: Grey;
-    font-family: 'Bellefair', cursive;
-    font-size: 30px;
-  }
-
-  nav ul li a:hover{
-    background-color: white;
-  }
   a{
     text-decoration: none;
     color: indigo;
@@ -61,7 +51,7 @@
   #bio{
     color: yellow;
   }
-  #centering{
+  .centering{
   text-align: center;
     }
   .font{
@@ -84,4 +74,9 @@
   }
   .format{
     font-family: fantasy;
+  }
+  #steps{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 50px;
   }

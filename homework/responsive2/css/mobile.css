@@ -7,3 +7,9 @@
     display: grid;
   }
 }
+
+nav ul li{
+  list-style: none;
+  display: block;
+  margin-right: 20px;
+}
